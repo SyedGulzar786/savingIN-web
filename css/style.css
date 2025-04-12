@@ -416,7 +416,6 @@ carouseil {
     position: relative;
     gap: 0.25rem;
     width: 100%;
-    /*justify-content: center;*/
     padding: 2rem;
   }
   
@@ -459,7 +458,6 @@ carouseil {
     cursor: pointer;
     min-height: 188px;
     max-height: 188px;
-    /* border-radius: 0.25rem; */
     animation: scroll 60s linear infinite; /*kitne time main sb items dikhani hain, total time taken for each item to show*/
 }
 

@@ -284,10 +284,7 @@ button.btn.btn-link.d-flex.align-items-center.p-0.custom-design {
 .profile-card {
   display: flex;
   align-items: center;
-  /* background-color: #fff; */
-  /* padding: 20px; */
   border-radius: 10px;
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 .profile-card img {
   border-radius: 50%;

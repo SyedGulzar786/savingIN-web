@@ -4,9 +4,8 @@
 }
 
 .linear-bg{
-    /* height: inherit; */
-    /* height: 304px; */
-    background: linear-gradient(89.73deg, #FBCE6F 25.72%, rgba(251, 206, 111, 0) 86.93%);
+    background: linear-gradient( 89.73deg, #138808 -10.2%, #FF9933 31.63%, rgba(251, 206, 111, 0) 76.93%);
+
 }
 
 .line-height{
