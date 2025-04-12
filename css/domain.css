@@ -1,0 +1,54 @@
+.color-orange{
+    color: #F98359 !important;
+  }
+  .color-green{
+    color: #138808 !important;
+  }
+.bg-orange{
+    background: #F98359 !important;
+  }
+  .bg-green{
+    background: #138808 !important;
+  }
+
+  .banner {
+    /* Fallback background */
+    background-color: #FF9933; /* Deep Saffron */
+  
+    /* Diagonal gradient: top‑left to bottom‑right */
+    background-image: linear-gradient(
+      to bottom right,
+      #FF9933 25%,    /* Saffron at the top‑left corner */
+      #FFFFFF 50%,   /* White in the middle */
+      #138808 90%   /* India Green at the bottom‑right corner */
+    );
+  }
+
+  .gradient-text {
+    background: linear-gradient(to right, #FF9933, #138808);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* For Firefox */
+    color: transparent;
+}
+
+.bottom-line {
+    /* height of the line */
+    height: 2px;
+    width: 100%;
+  
+    /* fallback for very old browsers */
+    background-color: #FF9933;  /* Deep Saffron :contentReference[oaicite:0]{index=0} */
+  
+    /* three‑stop linear gradient: saffron → white → green */
+    background-image: linear-gradient(
+      to right,          /* direction: left → right */
+      #FF9933 10%,        /* Deep Saffron at the left edge */
+      /* #FFFFFF 50%,       White in the middle */
+      #138808 100%       /* India Green at the right edge */
+    );
+  }
+
+  .border-orange{
+    border-color: #F98359 !important;
+  }
