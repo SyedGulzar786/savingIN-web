@@ -10,11 +10,10 @@
   .bg-green{
     background: #138808 !important;
   }
-
+  
   .banner {
     /* Fallback background */
     background-color: #FF9933; /* Deep Saffron */
-  
     /* Diagonal gradient: top‑left to bottom‑right */
     background-image: linear-gradient(
       to bottom right,
@@ -32,9 +31,9 @@
     color: transparent;
 }
 
-.bottom-line {
+.bottom-line-2 {
     /* height of the line */
-    height: 2px;
+    height: 2px !important;
     width: 100%;
   
     /* fallback for very old browsers */
